@@ -1,0 +1,71 @@
+.hero {
+  background-image: url("https://kith.com/cdn/shop/files/Baby-Explore-Page-HP-Desktop.jpg?v=1753985852&width=1920");
+
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+  color: white;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler::before,
+.navbar-toggler::after,
+.navbar-toggler span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: white;
+  content: "";
+}
+
+@media (max-width: 1024px) {
+  .form-control {
+    width: 100px;
+  }
+
+  .forsmbtn {
+    width: 60px;
+  }
+
+  .logo-box {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.logo-box {
+  padding: 0rem 0.3rem;
+  font-size: 1.7rem;
+  color: black;
+  text-shadow: 2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white,
+    -2px -2px 0 white;
+  font-weight: 900;
+  text-align: center;
+}
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.white {
+  color: white;
+  border: 1px solid white;
+}
+
+
