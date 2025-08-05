@@ -15,6 +15,11 @@
   background-image: none;
 }
 
+.btn-outline-success:hover{
+  background-color: white;
+  border: white;
+  color: rgb(38, 38, 38);
+}
 .navbar-toggler {
   border: none;
 }
