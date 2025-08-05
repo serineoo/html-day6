@@ -1,6 +1,4 @@
 .hero {
-  background-image: url("https://kith.com/cdn/shop/files/Baby-Explore-Page-HP-Desktop.jpg?v=1753985852&width=1920");
-
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -68,4 +66,118 @@
   border: 1px solid white;
 }
 
+.card-title {
+  font-weight: 700;
+  border: 1.3px solid #000;
+  padding: 6px 12px;
+  display: inline-block;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
 
+.card-text {
+  margin-bottom: 8px;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 0;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.hero .carousel-item {
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .hero .carousel-item {
+   background-position: 50%;
+    background-size: contain;
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 1024px) {
+  .search-form .form-control,
+  .search-form .forsmbtn {
+    display: none;
+  }
+  .search-form .search-icon {
+    display: inline-block;
+  }
+}
+
+.search-icon {
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+}
+
+
+
+
+footer {
+  background: #F2F2F2 ;
+  font-size: 14px;
+}
+.first-line {
+  color: #363636;
+  border-bottom: 1px solid #d7d7d7;
+}
+.second-line a {
+  color: #363636;
+  text-decoration: none;
+}
+.flag {
+  color: #363636;
+}
+.mobile-footer {
+  border-top: 1px solid #d7d7d7;
+  color: #363636;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 300;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+  display: none;
+}
+@media screen and (max-width: 48rem) {
+  .second-line {
+    padding: 0 2rem;
+  }
+
+  .flag {
+    display: none;
+  }
+
+  .first-line {
+    text-align: center;
+  }
+
+  .mobile-footer {
+    display: block;
+  }
+}
+.col {
+  padding-bottom: 1rem;
+}
+.flag-img {
+  margin: 0 0.5rem;
+}
